@@ -15,10 +15,10 @@ class B extends A {
 public class Main {
     public static void main(String[] args) {
         B objB = new B();
-        // Calling method meth from class A using object of class B
+        // Calling method meth from class A using the object of class B
         System.out.println(objB.meth());
-        // Calling overridden method meth from class B
-        // This will print "Method is overridden in Extended class B"
+        // here we calling the overridden method meth from class B
+        // It will print Method is overridden in Extended class B
         System.out.println(objB.meth());
     }
 }
